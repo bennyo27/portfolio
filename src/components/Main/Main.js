@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import filmsy from "./images/thumbnail-filmsy.png";
+import mud from "./images/thumbnail-mud.png";
+import notes from "./images/thumbnail-notes.png";
 import "./Main.css";
 
 class Main extends Component {
@@ -30,6 +32,7 @@ class Main extends Component {
           <div className="skills-wrapper">
             <div className="skill">
               <div className="skill-text">
+                <i class="fa fa-code fa-3x" aria-hidden="true" />
                 <h3>Front-end</h3>
                 <h4>I like to be able to animate my ideas into the browser</h4>
                 <p>
@@ -46,6 +49,7 @@ class Main extends Component {
             </div>
             <div className="skill">
               <div className="skill-text">
+                <i class="fa fa-server fa-3x" aria-hidden="true" />
                 <h3>Back-end</h3>
                 <h4>Every good front-end needs a good back-end</h4>
                 <p>
@@ -63,22 +67,54 @@ class Main extends Component {
           </div>
         </div>
         <div className="projects">
+          <div className="projects-title">
+            <h1>Recent Work</h1>
+          </div>
           <div className="projects-wrapper">
             <div className="project">
-              <img src={filmsy} />
+              <a href="https://filmsy.netlify.com/" target="_blank">
+                <img src={filmsy} />
+              </a>
             </div>
             <div className="project">
-              <img src={filmsy} />
+              <a href="https://lambda-mud.netlify.com/" target="_blank">
+                <img src={mud} />
+              </a>
             </div>
             <div className="project">
-              <img src={filmsy} />
-            </div>
-            <div className="project">
-              <img src={filmsy} />
+              <a
+                href="https://lambdanotes-front.herokuapp.com/"
+                target="_blank"
+              >
+                <img src={notes} />
+              </a>
             </div>
           </div>
         </div>
-        <div className="footer" />
+        <div className="footer">
+          <div className="footer-text">
+            <h4>
+              Make sure to take a look at my github as there are more projects.
+              These are just some of the projects I am fond of, especially the
+              filmsy one. I am constantly thinking of new ideas so expect more
+              additions.
+            </h4>
+            <div classname="footer-icons">
+              <a href="https://github.com/bennyo27" target="_blank">
+                <i class="fab fa-github fa-2x" aria-hidden="true" />
+              </a>
+              <a href="https://angel.co/benny-oseguera" target="_blank">
+                <i class="fab fa-angellist fa-2x" aria-hidden="true" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/benny-oseguera-1625b5165/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin fa-2x" aria-hidden="true" />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

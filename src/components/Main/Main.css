@@ -1,7 +1,7 @@
 .banner {
   display: flex;
   justify-content: center;
-  height: 600px;
+  height: 800px;
   color: white;
   background-color: #48a9a6;
 }
@@ -10,20 +10,34 @@
   align-self: center;
 }
 
+.banner-text h1 {
+  font-size: 3em;
+}
+
+.banner-text h3 {
+  font-size: 1.5em;
+}
+
 .summary {
   display: flex;
   justify-content: center;
-  height: 300px;
+  height: 600px;
 }
 
 .summary-text {
   max-width: 800px;
   width: 100%;
+  margin-top: 30px;
 }
 
 .summary-text h2 {
   margin-bottom: 40px;
   color: #48a9a6;
+  font-size: 1.9em;
+}
+
+.summary-text p {
+  line-height: 1.8em;
 }
 
 .skills {
@@ -35,11 +49,12 @@
 .skills-wrapper {
   display: flex;
   justify-content: space-between;
-  margin-top: -80px;
+  margin-top: -250px;
 }
 
 .skill {
   max-width: 300px;
+  padding: 20px;
   width: 100%;
   margin: 10px;
   border-radius: 20px;
@@ -47,33 +62,79 @@
   border: rgb(153, 247, 109) 0.5px solid;
 }
 
+i.fa-code {
+  color: #48a9a6;
+}
+
+i.fa-server {
+  color: #48a9a6;
+}
+
 .skill-text {
   color: black;
+}
+
+.skill-text h3 {
+  font-size: 1.6em;
 }
 
 .projects {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   background-color: #48a9a6;
+  padding-bottom: 20px;
+}
+
+.projects-title {
+  margin-top: 100px;
+  color: white;
 }
 
 .projects-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 900px;
+  margin: 0 auto;
+  width: 810px;
+  border-radius: 20px;
+  padding: 25px;
+  background-color: white;
 }
 
 .project {
   margin: 20px 10px;
-  transition: 1s;
-}
-
-.project:hover {
-  opacity: 0.8;
+  border-radius: 10px;
 }
 
 .project img {
   height: 200px;
   border-radius: 10px;
+  opacity: 0.9;
+  transition: 0.8s;
+}
+
+.project img:hover {
+  opacity: 1;
+  box-shadow: 4px 5px rgba(0, 0, 0, 0.8);
+}
+
+.footer {
+  background-color: #48a9a6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-text {
+  width: 100%;
+  max-width: 700px;
+}
+
+i.fab {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
 }
