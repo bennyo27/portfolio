@@ -1,0 +1,79 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  color: white;
+  background-color: #48a9a6;
+}
+
+.banner-text {
+  align-self: center;
+}
+
+.summary {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.summary-text {
+  max-width: 800px;
+  width: 100%;
+}
+
+.summary-text h2 {
+  margin-bottom: 40px;
+  color: #48a9a6;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  background-color: #48a9a6;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -80px;
+}
+
+.skill {
+  max-width: 300px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: white;
+  border: rgb(153, 247, 109) 0.5px solid;
+}
+
+.skill-text {
+  color: black;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  background-color: #48a9a6;
+}
+
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 900px;
+}
+
+.project {
+  margin: 20px 10px;
+  transition: 1s;
+}
+
+.project:hover {
+  opacity: 0.8;
+}
+
+.project img {
+  height: 200px;
+  border-radius: 10px;
+}
