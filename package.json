@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aos": "^2.3.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-pose": "^4.0.4",
+    "react-pose-text": "^3.1.0",
     "react-scripts": "2.1.2"
   },
   "scripts": {

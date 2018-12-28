@@ -37,6 +37,7 @@
 }
 
 .summary-text p {
+  font-size: 1.15em;
   line-height: 1.8em;
 }
 
@@ -49,7 +50,7 @@
 .skills-wrapper {
   display: flex;
   justify-content: space-between;
-  margin-top: -250px;
+  margin-top: -200px;
 }
 
 .skill {
@@ -110,13 +111,6 @@ i.fa-server {
 .project img {
   height: 200px;
   border-radius: 10px;
-  opacity: 0.9;
-  transition: 0.8s;
-}
-
-.project img:hover {
-  opacity: 1;
-  box-shadow: 4px 5px rgba(0, 0, 0, 0.8);
 }
 
 .footer {
@@ -133,7 +127,7 @@ i.fa-server {
   max-width: 700px;
 }
 
-i.fab {
+.fab {
   padding: 10px;
   text-decoration: none;
   color: white;
