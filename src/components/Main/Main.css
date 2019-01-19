@@ -21,7 +21,7 @@
 .summary {
   display: flex;
   justify-content: center;
-  height: 600px;
+  height: auto;
 }
 
 .summary-text {
@@ -97,7 +97,8 @@ i.fa-server {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  width: 810px;
+  width: 100%;
+  max-width: 810px;
   border-radius: 20px;
   padding: 25px;
   background-color: white;
@@ -131,4 +132,55 @@ i.fa-server {
   padding: 10px;
   text-decoration: none;
   color: white;
+}
+
+@media (min-width: 800px) and (max-width: 1100px) {
+  .skills-wrapper {
+    margin-top: 60px;
+  }
+
+  .projects-wrapper {
+    max-width: 700px;
+  }
+
+  .project img {
+    width: 330px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .skills-wrapper {
+    margin-top: 60px;
+  }
+
+  .projects-wrapper {
+    max-width: 400px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .summary-text {
+    font-size: 0.83em;
+    padding: 10px;
+  }
+
+  .skills-wrapper {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+  .skill {
+    width: auto;
+  }
+
+  .projects-wrapper {
+    max-width: 400px;
+    padding: 0px;
+    background-color: #48a9a6;
+  }
+
+  .project {
+    width: auto;
+  }
 }
