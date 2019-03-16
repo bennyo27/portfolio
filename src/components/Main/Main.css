@@ -3,7 +3,7 @@
   justify-content: center;
   height: 800px;
   color: white;
-  background-color: #48a9a6;
+  /* background-color: #48a9a6; */
 }
 
 .banner-text {
@@ -23,6 +23,7 @@
   justify-content: center;
   height: auto;
   padding-bottom: 70px;
+  background-color: white;
 }
 
 .summary-text {
@@ -33,7 +34,7 @@
 
 .summary-text h2 {
   margin-bottom: 40px;
-  color: #48a9a6;
+  color: #0093b2;
   font-size: 1.9em;
 }
 
@@ -45,7 +46,7 @@
 .skills {
   display: flex;
   justify-content: center;
-  background-color: #48a9a6;
+  /* background-color: #48a9a6; */
 }
 
 .skills-wrapper {
@@ -61,15 +62,15 @@
   margin: 10px;
   border-radius: 20px;
   background-color: white;
-  border: rgb(153, 247, 109) 0.5px solid;
+  border: rgb(34, 150, 196) 0.5px solid;
 }
 
 i.fa-code {
-  color: #48a9a6;
+  color: #0093b2;
 }
 
 i.fa-server {
-  color: #48a9a6;
+  color: #0093b2;
 }
 
 .skill-text {
@@ -84,7 +85,7 @@ i.fa-server {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #48a9a6;
+  /* background-color: #48a9a6; */
   padding-bottom: 20px;
 }
 
@@ -116,7 +117,7 @@ i.fa-server {
 }
 
 .footer {
-  background-color: #48a9a6;
+  /* background-color: #48a9a6; */
   color: white;
   display: flex;
   justify-content: center;

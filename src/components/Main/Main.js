@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import taco from "./images/thumbnail-taco.jpg";
 import filmsy from "./images/thumbnail-filmsy.png";
 import mud from "./images/thumbnail-mud.png";
 import notes from "./images/thumbnail-notes.png";
@@ -72,13 +73,13 @@ class Main extends Component {
           <div className="summary-text">
             <h2>Good morning, afternoon, or evening. I'm Benny.</h2>
             <p>
-              Although, my love for tech began in my youth, my passion for web
+              My love for tech began in my youth but my passion for web
               development began with the first bootcamp I completed at my
               college. After a lot of thought I decided to join a fulltime Full
-              Stack Web Development course at another bootcamp. This is where my
+              Stack Web Development course at Lambda School. This is where my
               passion grew immensely as I got to see and work with both the
-              front-end and back-end sides of web applications. I developed
-              projects and even some that I am proud to say I created on my own.
+              front-end and back-end portions of web applications. I had the
+              opportunity to develop projects with others and on my own.
             </p>
           </div>
         </div>
@@ -134,22 +135,14 @@ class Main extends Component {
             <h1 data-aos="fade-up">Recent Work</h1>
           </div>
           <div className="projects-wrapper">
+            <div className="project" data-aos="zoom-in" data-aos-delay="200">
+              <a href="https://taco-run-c453f.firebaseapp.com/" target="_blank">
+                <Img src={taco} />
+              </a>
+            </div>
             <div className="project" data-aos="zoom-in">
               <a href="https://filmsy.netlify.com/" target="_blank">
                 <Img src={filmsy} />
-              </a>
-            </div>
-            <div className="project" data-aos="zoom-in" data-aos-delay="200">
-              <a href="https://lambda-mud.netlify.com/" target="_blank">
-                <Img src={mud} />
-              </a>
-            </div>
-            <div className="project" data-aos="zoom-in">
-              <a
-                href="https://lambdanotes-front.herokuapp.com/"
-                target="_blank"
-              >
-                <Img src={notes} />
               </a>
             </div>
           </div>
@@ -157,9 +150,8 @@ class Main extends Component {
         <div className="footer">
           <div className="footer-text">
             <h4>
-              Make sure to take a look at my github as there are more projects.
-              These are just some of the projects I am fond of, especially the
-              filmsy one. I am constantly thinking of new ideas so expect more
+              Make sure to take a quick look at my github for more projects and
+              source code. I am constantly thinking of new ideas so expect more
               additions.
             </h4>
             <div classname="footer-icons">
